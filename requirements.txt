@@ -1,0 +1,11 @@
+# Direct dependency versions used for local validation; not a transitive lockfile.
+# Validation used torch 2.11.0+cu128. Select the appropriate CPU/CUDA wheel.
+# See README.md and docs/VALIDATION.md for the verification scope.
+torch==2.11.0
+librosa==0.11.0
+numpy==2.3.5
+scipy==1.16.3
+scikit-learn==1.7.2
+soundfile==0.14.0
+matplotlib==3.10.6
+spafe==0.3.3

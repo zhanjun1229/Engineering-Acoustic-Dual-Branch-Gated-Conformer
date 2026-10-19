@@ -1,0 +1,6 @@
+include requirements.txt
+include LICENSE
+include train.py
+include .editorconfig .gitattributes .gitignore
+include docs/PACKAGING.md docs/VALIDATION.md
+recursive-include tests *.py *.json
